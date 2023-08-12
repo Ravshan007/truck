@@ -1,0 +1,8 @@
+@import './fonts';
+@import './colors';
+
+@mixin outlined-btn{
+    @include font($main-font, PT Sans, 16px,  normal, 700, 150%);
+    padding-bottom: 5px;
+    border-bottom: 3px solid $golder-font;
+}
